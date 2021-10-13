@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(49, 127, 153);
+    background-color: rgb(120, 124, 126);
   }
   
   h1 {
@@ -10,5 +10,10 @@ body {
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+  div{
+    margin: 20px;
+    padding: 70px;
+
   }
   
