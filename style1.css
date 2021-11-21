@@ -1,24 +1,23 @@
 body {
-    background-image: url("./photo/over.png");
- background-color: #6e2121;
-    margin: 0px;
-    padding: 0px;
+  background-image: url("./over.png");
+  background-color: #6e2121;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
-    margin: 0% auto;
-    width: 400px;
-    padding: 50px;
-    border: 2px solid rgb(48, 14, 112);
-    border-radius: 39px;
-    height: 350px;
-    background-color: rgb(195, 206, 96);
+  margin: 0% auto;
+  width: 400px;
+  padding: 50px;
+  border: 2px solid rgb(48, 14, 112);
+  border-radius: 39px;
+  height: 350px;
+  background-color: rgb(195, 206, 96);
 }
 
 form input {
-    display: block;
-    height: 24px;
-    width: 219px;
-    margin: 3px
+  display: block;
+  height: 24px;
+  width: 219px;
+  margin: 3px;
 }
-
