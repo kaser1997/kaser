@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+    <head lang="en">
+        <title> Table</title>
+        <style> 
+        .o{
+            background-image:  url("imag1.jpg");
+        }
+    
+        table{
+                border: 9px rgb(1, 13, 17) dashed;
+                 border-collapse: collapse ;
+                 text-align: center;   
+                 width: 50%;
+                 height: 50%; 
+                 font-size:40px;
+            }
+            th,td {
+                border: 2px rgb(95, 78, 56) solid;
+            }
+    
+            .mark{
+                background-color: rgb(89, 83, 92);
+            }
+         #ritastyle {
+             background-color: rgb(173, 162, 168);
+         }
+         .hh{
+             background-color: rgb(53, 51, 54);
+         }
+         .h{
+             background-color: rgb(68, 78, 58);
+         }
+         .c{
+             background-color: rgb(65, 86, 104);
+         }
+        </style>
+
+    </head>
+    <body class="o"> 
+        <table>
+            <thead>
+                <tr class="mark"> 
+                    <th> Name </th>
+                    <th> age </th>
+                    <th> 0 </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hh">
+                    <td> kaser</td>
+                    <td>24</td>
+                    <td> 00</td>
+                </tr>
+                <tr id="ritastyle">
+                    <td  rowspan="2"> hasan</td>
+                    <td rowspan="2" > 28</td>
+                    <td>000</td>
+                </tr>
+                <tr class="c">
+                    <td>0000</td> 
+                </tr>
+                <tr class="h">
+                    <td>maher </td>
+                    <td> 20</td>
+                    <td>00000</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
